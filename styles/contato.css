@@ -1,0 +1,28 @@
+#ooo{
+    margin: 0px;
+        display: flex;
+            justify-content: center;
+}
+
+#div000{
+    background-color: #feb2b2;
+        border: solid 2px black;
+            margin: 0px;
+                width: 100%;
+                    height: 941px;
+                        
+}
+
+.div111999{
+    background-color: #98d0c7;
+        width: 90%;
+            height: 80px;
+                margin: auto;
+                    text-align: center;
+                        margin-bottom: 15px;
+                            
+
+
+
+}
+                        
