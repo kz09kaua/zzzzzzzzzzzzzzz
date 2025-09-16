@@ -1,3 +1,16 @@
+:root{
+    --cor1: #feb2b2;
+    --cor2: #ff1493;
+    --cor3: #c71585;
+    --cor4: #ffd700;
+    --cor5: #f0e68c;
+    --cor6: #98d0c7;
+    --cor7: #fa7f7f;
+
+
+}
+
+
 #ooo{
     margin: 0px;
         display: flex;
@@ -5,7 +18,7 @@
 }
 
 #div000{
-    background-color: #feb2b2;
+    background-color: var(--cor1);
         border: solid 2px black;
             margin: 0px;
                 width: 100%;
@@ -17,15 +30,52 @@
 }
 
 .div111999{
-    background-color: #98d0c7;
+    background-color: var(--cor6);
         width: 90%;
             height: 80px;
                 margin: auto;
-                    text-align: center;
-                        margin-bottom: 15px;
+                    display: flex;
+                        text-align: center;
+                            margin-bottom: 20px;
+                                
                             
 
 
+
+}
+
+#menu000{
+    width: 90%;
+         display: flex;
+            justify-content: center; /* centraliza na horizontal */
+                align-items: center; 
+
+}
+
+#menu111{
+    display: flex;
+        gap: 10px;
+           
+
+}
+
+.menu234{
+    
+        list-style: none;
+            border: solid 1px black;
+                padding: 10px;
+
+}
+
+.menu234:hover{
+    background-color: var(--cor3);
+        transition: 0.5s;
+            border: none;
+
+}
+
+.menu999{
+    text-decoration: none;
 
 }
 
@@ -50,7 +100,7 @@
 }
 
 #uuu{
-    background-color: #fa7f7f;
+    background-color: var(--cor7);
         width: 90%;
             margin-top: 20px;
                 height: 350px;
@@ -58,7 +108,7 @@
 }
 
 #Gallery{
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 
 
 }
@@ -72,8 +122,6 @@
                         margin-bottom: 10px;
                             
 
-
-
 }
 
 .imagem2{
@@ -86,6 +134,16 @@
 
 }
 
+#paragrafo{
+
+
+}
+
+#cola{
+    margin: 15px;
+        width: 50px;
+            height: 50px;
+}
 
 
 
