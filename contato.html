@@ -3,48 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>atividade-parte2</title>
-        <link rel="stylesheet" href="/styles/contato.css">
+    <title>Atividade - Parte 2</title>
+    <link rel="stylesheet" href="/styles/contato.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fefefe;
+        }
+
+        #div000 {
+            background-color: #feb2b2;
+            border: solid 2px black;
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .div111999 {
+            background-color: #98d0c7;
+            width: 90%;
+            height: 80px;
+            margin: 20px auto;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .div111999:hover {
+            background-color: #7ab8af;
+        }
+
+        h1 a {
+            text-decoration: none;
+            color: black;
+            transition: 0.3s;
+        }
+
+        h1 a:hover {
+            color: white;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        label {
+            font-weight: bold;
+            text-align: left;
+        }
+
+        input, textarea, select {
+            padding: 8px;
+            border: 1px solid #333;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        textarea {
+            resize: none;
+            height: 80px;
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
 </head>
 <body>
     <div id="div000">
-    
-    <div class="div111999" style="margin-top: 30px;">
-        <a href="/contato.html"></a><h1>Header</h1></a>
+
+        <!-- HEADER -->
+        <div class="div111999">
+            <h1><a href="/contato.html">Header</a></h1>
+        </div>
+
+        <!-- FORM -->
+        <div>
+            <form action="">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" name="endereco" placeholder="Rua, número...">
+
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade" placeholder="Digite sua cidade">
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com">
+
+                <label for="assunto">Assunto:</label>
+                <select id="assunto" name="assunto">
+                    <option value="">Selecione...</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="suporte">Suporte</option>
+                    <option value="sugestao">Sugestão</option>
+                </select>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="div111999">
+            <h2>Footer</h2>
+        </div>
     </div>
-
-<div>
-    <form action="">    
-        <label for="">Nome: </label>
-        <input type="text"  name="" id="" />
-
-        <label for="">Endereço</label>
-        <input type="text" name="" id=""  />
-
-        <label for="">Cidade</label>
-        <input type="text"  name="" id=""   />
-
-        <label for="">Telefone</label>
-        <input type="text"  name="" id=""   />
-
-        <label for="">Email</label>
-        <input type="text"  name="" id=""  />
-
-        <label for="">Mensagem</label>
-        <input type="text"  name="" id=""   />
-</form>"
-</div>
- 
-
-
-    <div class="div111999">
-        <h2>Footer</h2>
-    </div>
-
-
-
-</div>
-
-
 </body>
 </html>

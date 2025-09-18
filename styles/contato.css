@@ -1,28 +1,87 @@
-#ooo{
-    margin: 0px;
-        display: flex;
-            justify-content: center;
+body{
+    margin: 0;
+        font-family: Arial, sans-serif;
+            background: #fefefe;
 }
 
 #div000{
     background-color: #feb2b2;
         border: solid 2px black;
-            margin: 0px;
-                width: 100%;
-                    height: 941px;
-                        
+            width: 100%;
+                min-height: 100vh;
+                    display: flex;
+                        flex-direction: column;
+                            justify-content: space-between;
 }
 
 .div111999{
     background-color: #98d0c7;
         width: 90%;
             height: 80px;
-                margin: auto;
+                margin: 20px auto;
                     text-align: center;
-                        margin-bottom: 15px;
-                            
+                        display: flex;
+                            justify-content: center;
+                                align-items: center;
+                                    border-radius: 8px;
+                                        transition: 0.3s;
+}
 
+.div111999:hover{
+    background-color: #7ab8af;
+}
 
+h1 a{
+    text-decoration: none;
+        color: black;
+            transition: 0.3s;
+}
+
+h1 a:hover {
+    color: white;
+}
+
+form {
+    display: flex;
+        flex-direction: column;
+            gap: 12px;
+                max-width: 400px;
+                    margin: auto;
+                        padding: 20px;
+                            background: white;
+                                border-radius: 10px;
+                                    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+label {
+    font-weight: bold;
+        text-align: left;
+}
+
+input, textarea, select{
+    padding: 8px;
+        border: 1px solid #333;
+            border-radius: 6px;
+                font-size: 14px;
+}
+
+textarea{
+    resize: none;
+        height: 80px;
+}
+
+button{
+    background-color: #333;
+        color: white;
+            border: none;
+                padding: 12px;
+                    border-radius: 6px;
+                        cursor: pointer;
+                            font-size: 16px;
+                                transition: 0.3s;
+}
+
+button:hover{
+    background-color: #555;
 
 }
-                        
